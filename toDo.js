@@ -18,7 +18,7 @@ function template() {
 
     let butCol1 = document.createElement('button')
     butCol1.id = 'button3'
-    butCol1.textContent = 'Create list'
+    butCol1.textContent = 'Create todo list'
     col1.appendChild(butCol1)
     butCol1.addEventListener('click', function(){
         console.log('hello world')
@@ -36,7 +36,7 @@ function template() {
 
     let butCol2 = document.createElement('button')
     butCol2.id = 'button3'
-    butCol2.textContent = 'Create list'
+    butCol2.textContent = 'Create halfway list'
     col2.appendChild(butCol2)
     col2.addEventListener('click', function(){
         console.log('hello world')
@@ -44,7 +44,7 @@ function template() {
 
     let textBox2 = document.createElement('input')
     textBox2.setAttribute('type', 'text')
-    textBox2.setAttribute('placeholder', 'Half way')
+    textBox2.setAttribute('placeholder', 'Halfway')
     col2.appendChild(textBox2)
 
 
@@ -54,7 +54,7 @@ function template() {
 
     let butCol3 = document.createElement('button')
     butCol3.id = 'button3'
-    butCol3.textContent = 'Create list'
+    butCol3.textContent = 'Create finished list'
     col3.appendChild(butCol3)
     butCol3.addEventListener('click', function(){
         console.log('hello world')
