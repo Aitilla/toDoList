@@ -1,0 +1,11 @@
+#container{
+    display: flex;
+    justify-content: cemter;
+    flex-direction: row;
+    flex-basis: 100%;
+}
+
+.col1, .col2, .col3{
+    display: flex;
+    flex-direction: column;
+}
