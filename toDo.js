@@ -107,7 +107,7 @@ function todoList() {
 
 }
 
-const templateButton = document.getElementById('button').addEventListener('click', todoList)
+document.getElementById('button').addEventListener('click', todoList)
 
 
 const container = document.getElementById('container')
